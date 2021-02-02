@@ -208,7 +208,7 @@ section{
 }
 #section-couple .section-header .section-header-info{
 	margin-top: 180px;
-	margin-bottom: 40px;
+	margin-bottom: 200px;
 	padding-left: 50px;
 	max-width: 30rem;
 }
@@ -327,7 +327,7 @@ section{
 #section-full-cover .section-header .section-header-info{
 	margin-top: 320px;
 	margin-bottom: 100px;
-	margin-left: 4rem;
+	margin-left: 150px;
 }
 #section-full-cover .section-header .section-header-info h1{
 	font-size: 4.5rem;
@@ -340,7 +340,7 @@ section{
 }
 #section-full-cover .section-content .section-info-left{
 	margin-top: -60px;
-	margin-left: 65px;
+	margin-left: 150px;
 }
 #section-full-cover .section-content  .section-info-left p{
 	margin: .2rem 0;
@@ -403,7 +403,7 @@ section{
 
 #section-tiempo .section-info-left{
 	max-width: 200px;
-	margin-left: 65px;
+	margin-left: 200px;
 	margin-top: 80px;
 }
 
@@ -414,7 +414,7 @@ section{
 
 #section-tiempo .section-info-middle img{
 	width: 20rem;
-	margin-left: -120px;
+	margin-left: -50px;
 }
 
 #section-tiempo .section-info-right{
