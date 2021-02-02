@@ -189,8 +189,8 @@
 			<p>Trabajamos para ti con las empresas</p>
 			<h1>MÁS PRESTIGIADAS DE</h1>
 			<h1>ESTADOS UNIDOS</h1>
-			<div class="carrusel-container">
-				<div class="splide">
+			<div class="carrusel-container full-size">
+				<div class="splide" id="splideFull">
 					<div class="splide__arrows">
 						<button class="splide__arrow splide__arrow--prev"></button>
 						<button class="splide__arrow splide__arrow--next"></button>
@@ -200,8 +200,10 @@
 						<ul class="splide__list">
 							<li class="splide__slide"><embed src="img/partners/Aegis1.svg"></li>
 							<li class="splide__slide"><embed src="img/partners/Appalachian1.svg"></li>
-							<li class="splide__slide"><embed src="img/partners/Assurance_America1.svg"></li>
-							<li class="splide__slide"><embed src="img/partners/Colonial_Group1.svg"></li>
+							<li class="splide__slide"><embed src="img/partners/Assurance_America1.svg">
+							</li>
+							<li class="splide__slide"><embed src="img/partners/Colonial_Group1.svg">
+							</li>
 							<li class="splide__slide"><embed src="img/partners/Commonwealth1.svg"></li>
 							<li class="splide__slide"><embed src="img/partners/Dairyland1.svg"></li>
 							<li class="splide__slide"><embed src="img/partners/Gainsco1.svg"></li>
@@ -210,7 +212,23 @@
 							<li class="splide__slide"><embed src="img/partners/Progressive1.svg"></li>
 							<li class="splide__slide"><embed src="img/partners/STILLWATER1.svg"></li>
 							<li class="splide__slide"><embed src="img/partners/Trexis1.svg"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="carrusel-container progressive-size">
+				<div class="splide" id="splideResponsive">
+					<div class="splide__arrows">
+						<button class="splide__arrow splide__arrow--prev"></button>
+						<button class="splide__arrow splide__arrow--next"></button>
+					</div>
 
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide"><embed src="img/partners/LOGOS1.png"></li>
+							<li class="splide__slide"><embed src="img/partners/LOGOS2.png"></li>
+							<li class="splide__slide"><embed src="img/partners/LOGOS3.png"></li>
+							<li class="splide__slide"><embed src="img/partners/LOGOS4.png"></li>
 						</ul>
 					</div>
 				</div>
@@ -219,7 +237,9 @@
 		<!--footer-->
 		<section id="footer">
 			<div class="footer-container">
-				<div class="footer-left"></div>
+				<div class="footer-left">
+					<img src="img/footer_left.jpg" alt="" style="visibility: hidden;">
+				</div>
 				<div class="footer-right">
 					<div class="titulo">
 						<h6>¡Nos encanta atenderte!</h6>
@@ -269,9 +289,15 @@
 			duration: 800
 		});
 		Sticker.init('.sticker');
-		new Splide('.splide', {
+		new Splide('#splideFull', {
 			type: 'loop',
 			perPage: 5,
+			autoplay: true,
+			interval: 2000
+		}).mount();
+		new Splide('#splideResponsive', {
+			type: 'loop',
+			perPage: 1,
 			autoplay: true,
 			interval: 2000
 		}).mount();
