@@ -143,6 +143,22 @@ img.escudo{
 	width: 80px;
 	display: inline-block;
 }
+
+.list-container{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin-bottom: 3.5rem;
+}
+
+.list-container .list-item-bullet{
+	margin-right: 1rem;
+}
+
+.list-container .list-item-bullet img{
+	width: 5.5rem;
+}
+
+
 section{
 	display: flex;
 	margin-bottom: 1rem;
@@ -163,13 +179,9 @@ section{
 	font-size: 1.4rem;
 	color: #858583;
 }
-
-
-
 #main-section .section-info .section-text{
 	padding-left: 15px;
 }
-
 @media(max-width: 700px){
 	#main-section .section-content .section-img{
 		width: 200%;
@@ -180,7 +192,6 @@ section{
 		padding-left: 1rem;
 	}
 }
-
 @media(max-width: 450px){
 	#main-section .section-content .section-img{
 		width: 200%;
@@ -200,15 +211,13 @@ section{
 	flex-direction: column;
 	margin-bottom: 0;
 }
-
 #section-couple .section-header{
 	background: url(../img/paint_2.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-
 #section-couple .section-header .section-header-info{
-	margin-top: 200px;
+	margin-top: 180px;
 	margin-bottom: 40px;
 	padding-left: 50px;
 	max-width: 30rem;
@@ -221,7 +230,17 @@ section{
 #section-couple .section-header .section-header-info h2{
 	font-weight: lighter;
 }
-
+@media(max-width: 1050px){
+	#section-couple .section-header .section-header-info{
+		margin-top:10rem;
+		margin-bottom: 2rem;
+	}
+}
+@media(max-width: 850px){
+	#section-couple .section-header .section-header-info{
+		margin-top:2rem;
+	}
+}
 @media(max-width: 700px){
 	#section-couple .section-header{
 		background: url(../img/paint_2-alt.jpg);
@@ -229,14 +248,49 @@ section{
 		background-size: 100%;
 		background-position: center top;
 	}
-
 	#section-couple .section-header .section-header-info{
 		margin-top: 100px;
 		margin-bottom: 600px;
 	}
 }
+@media(max-width: 600px){
+	#section-couple .section-header .section-header-info{
+		margin-bottom: 500px;
+	}
+}
+@media(max-width: 550px){
+	#section-couple .section-header .section-header-info{
+		margin-bottom: 400px;
+	}
 
+	#section-couple .section-header .section-header-info h1{
+		font-size: 3.5rem;
+		line-height: 4.0rem;
+	}
+	#section-couple .section-header .section-header-info h2{
+		font-size: 1.5rem;
+	}
+}
+@media(max-width: 450px){
+	#section-couple .section-header .section-header-info{
+		margin-bottom: 350px;
+	}
 
+	#section-couple .section-header .section-header-info h1{
+		font-size: 3rem;
+		line-height: 2.8rem;
+	}
+}
+
+@media(max-width: 400px){
+	#section-couple .section-header .section-header-info h1{
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	#section-couple .section-header .section-header-info{
+		margin-bottom: 200px;
+	}
+}
 
 
 
@@ -246,23 +300,19 @@ section{
 	padding-bottom: 50px;
 	margin-bottom: 0 !important;
 }
-
 #section-liability .section-content{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 2rem;
 }
-
 #section-liability .section-content .section-info-left .section-img{
 	margin-left: 0px;
 }
-
 #section-liability .section-content .section-info-left .section-text{
 	margin-top: -160px;
 	padding-left: 50px;
 	padding-bottom: 10px;
 }
-
 #section-liability .section-content .section-info-left .section-text h2{
 	font-weight: lighter;
 	font-size: 1.5rem;
@@ -273,54 +323,53 @@ section{
 	margin-left: 30px;
 	margin-bottom: 15px;
 }
-
 #section-liability .section-content .section-info-left .section-text h1{
 	font-size: 4.5rem;
 	line-height: 4.4rem;
 	font-family: "AGENCYB";
 }
-
 #section-liability .section-content .section-info-right{
 	font-family: "JosefinSans-Light";
 	font-size: 1.6rem;
 	margin-top: 6rem;
 	max-width: 350px;
 }
-
-.list-container{
-	display: grid;
-	grid-template-columns: 1fr 4fr;
-	margin-bottom: 3.5rem;
-}
-
-.list-container .list-item-bullet{
-	margin-right: 1rem;
-}
-
-.list-container .list-item-bullet img{
-	width: 5.5rem;
-}
-
 @media(max-width: 700px){
 	#section-liability .section-content{
 		display: flex;
 		flex-direction: column;
 		padding-left: 100px
 	}
-
 	#section-liability .section-content .section-info-left .section-img{
 		display: none;
 	}
-
 	#section-liability .section-content .section-info-left .section-text{
 		margin-top: 50px;
 		margin-left: -70px;
 	}
-
 	#section-liability .section-content .section-info-left .section-text .flecha-md{
 		display: none;
 	}
 }
+@media(max-width: 600px){
+	#section-liability .section-content{
+		padding-left: 80px
+	}
+	#section-liability .section-content .section-info-right{
+		margin-left: -25px;
+	}
+}
+@media(max-width: 500px){
+	#section-liability .section-content{
+		padding-left: 60px
+	}
+	#section-liability .section-content .section-info-right{
+		margin-left: -40px;
+		font-size: 1.3rem;
+	}
+}
+
+
 
 
 
@@ -328,13 +377,11 @@ section{
 	display: flex;
 	flex-direction: column;
 }
-
 #section-full-cover .section-header{
 	background: url(../img/paint_3.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-
 #section-full-cover .section-header .section-header-info{
 	margin-top: 320px;
 	margin-bottom: 100px;
@@ -345,39 +392,34 @@ section{
 	line-height: 4.4rem;
 	font-family: "AGENCYB";
 }
-
 #section-full-cover .section-content{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-
 #section-full-cover .section-content .section-info-left{
 	margin-top: -60px;
 	margin-left: 65px;
 }
-
 #section-full-cover .section-content  .section-info-left p{
 	margin: .2rem 0;
 }
-
 #section-full-cover .section-content  .section-info-left img{
 	margin-left: 200px;
 	margin-top: -18px;
 }
-
 #section-full-cover  .section-content .section-info-right{
 	font-family: "JosefinSans-Light";
 	font-size: 1.6rem;
 	max-width: 350px;
 }
-
-
 @media(max-width: 700px){
 	#section-full-cover .section-header{
 		background-size: 150%;
 		background-position: center;
 	}
-
+	#section-full-cover .section-header .section-header-info{
+		margin-top: 10.5rem;
+	}
 	#section-full-cover .section-content{
 		display: flex;
 		flex-direction: column;
@@ -395,6 +437,65 @@ section{
 		max-width: 90%;
 	}
 }
+
+@media(max-width: 600px){
+	#section-full-cover .section-header .section-header-info{
+		margin-top: 4.5rem;
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+	#section-full-cover .section-header .section-header-info h1{
+		font-size: 3.8rem;
+		line-height: 3.5rem;
+	}
+	#section-full-cover .section-content .section-info-left{
+		font-size: 2.3rem;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#section-full-cover .section-content .section-info-right{
+		margin: 1rem 0 1rem 1rem;
+		font-size: 2rem;
+	}
+}
+@media(max-width: 500px){
+	#section-full-cover .section-header .section-header-info{
+		margin-top: 80px;
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+	#section-full-cover .section-header .section-header-info h1{
+		font-size: 3.2rem;
+		line-height: 3rem;
+	}
+	#section-full-cover .section-content .section-info-left{
+		font-size: 2rem;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+}
+@media(max-width: 370px){
+	#section-full-cover .section-header .section-header-info{
+		margin-top: 80px;
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+	#section-full-cover .section-header .section-header-info h1{
+		font-size: 2.5rem;
+		line-height: 2rem;
+	}
+	#section-full-cover .section-content .section-info-left{
+		font-size: 1.4rem;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#section-full-cover .section-content .section-info-right{
+		margin: 2rem 0 1rem 1rem;
+		font-size: 1.4rem;
+	}
+}
+
+
 
 #section-tiempo{
 	display: grid;
