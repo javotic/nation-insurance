@@ -185,16 +185,6 @@ section{
 @media(max-width: 700px){
 	#main-section .section-content .section-img{
 		width: 200%;
-		margin-left: -250px;
-	}
-	#main-section .section-info{
-		margin-top: -200px;
-		padding-left: 1rem;
-	}
-}
-@media(max-width: 450px){
-	#main-section .section-content .section-img{
-		width: 200%;
 		margin-left: -200px;
 	}
 	#main-section .section-info{
@@ -230,17 +220,6 @@ section{
 #section-couple .section-header .section-header-info h2{
 	font-weight: lighter;
 }
-@media(max-width: 1050px){
-	#section-couple .section-header .section-header-info{
-		margin-top:10rem;
-		margin-bottom: 2rem;
-	}
-}
-@media(max-width: 850px){
-	#section-couple .section-header .section-header-info{
-		margin-top:2rem;
-	}
-}
 @media(max-width: 700px){
 	#section-couple .section-header{
 		background: url(../img/paint_2-alt.jpg);
@@ -249,43 +228,9 @@ section{
 		background-position: center top;
 	}
 	#section-couple .section-header .section-header-info{
-		margin-top: 100px;
-		margin-bottom: 600px;
-	}
-}
-@media(max-width: 600px){
-	#section-couple .section-header .section-header-info{
-		margin-bottom: 500px;
-	}
-}
-@media(max-width: 550px){
-	#section-couple .section-header .section-header-info{
-		margin-bottom: 400px;
-	}
-
-	#section-couple .section-header .section-header-info h1{
-		font-size: 3.5rem;
-		line-height: 4.0rem;
-	}
-	#section-couple .section-header .section-header-info h2{
-		font-size: 1.5rem;
-	}
-}
-@media(max-width: 450px){
-	#section-couple .section-header .section-header-info{
-		margin-bottom: 350px;
-	}
-
-	#section-couple .section-header .section-header-info h1{
-		font-size: 3rem;
-		line-height: 2.8rem;
-	}
-}
-
-@media(max-width: 400px){
-	#section-couple .section-header .section-header-info{
 		margin-top: 30px;
 		padding-left: 30px;
+		margin-bottom: 350px;
 	}
 	#section-couple .section-header .section-header-info h1{
 		font-size: 2rem;
@@ -348,7 +293,7 @@ section{
 	#section-liability .section-content{
 		display: flex;
 		flex-direction: column;
-		padding-left: 100px
+		padding-left: 60px
 	}
 	#section-liability .section-content .section-info-left .section-img{
 		display: none;
@@ -359,19 +304,6 @@ section{
 	}
 	#section-liability .section-content .section-info-left .section-text .flecha-md{
 		display: none;
-	}
-}
-@media(max-width: 600px){
-	#section-liability .section-content{
-		padding-left: 80px
-	}
-	#section-liability .section-content .section-info-right{
-		margin-left: -25px;
-	}
-}
-@media(max-width: 500px){
-	#section-liability .section-content{
-		padding-left: 60px
 	}
 	#section-liability .section-content .section-info-right{
 		margin-left: -40px;
@@ -430,48 +362,6 @@ section{
 		background-repeat: no-repeat;
 	}
 	#section-full-cover .section-header .section-header-info{
-		margin-top: 10.5rem;
-	}
-	#section-full-cover .section-content{
-		display: flex;
-		flex-direction: column;
-	}
-	#section-full-cover .section-content .section-info-left{
-		font-size: 2.5rem;
-	}
-	#section-full-cover .section-content .section-info-left .flecha-md{
-		display: none;
-	}
-	#section-full-cover .section-content .section-info-right{
-		font-size: 1.8rem;
-		margin-left: 60px;
-		margin-top: 30px;
-		max-width: 90%;
-	}
-}
-
-@media(max-width: 600px){
-	#section-full-cover .section-header .section-header-info{
-		margin-top: 4.5rem;
-		margin-left: 20px;
-		margin-bottom: 50px;
-	}
-	#section-full-cover .section-header .section-header-info h1{
-		font-size: 3.8rem;
-		line-height: 3.5rem;
-	}
-	#section-full-cover .section-content .section-info-left{
-		font-size: 2.3rem;
-		margin-top: 10px;
-		margin-left: 20px;
-	}
-	#section-full-cover .section-content .section-info-right{
-		margin: 1rem 0 1rem 1rem;
-		font-size: 2rem;
-	}
-}
-@media(max-width: 500px){
-	#section-full-cover .section-header .section-header-info{
 		margin-top: 230px;
 		margin-left: 20px;
 		margin-bottom: 20px;
@@ -480,33 +370,22 @@ section{
 		font-size: 3.2rem;
 		line-height: 3rem;
 	}
+	#section-full-cover .section-content{
+		display: flex;
+		flex-direction: column;
+	}
 	#section-full-cover .section-content .section-info-left{
 		font-size: 1.6rem;
 		margin-top: 10px;
 		margin-left: 20px;
 	}
+	#section-full-cover .section-content .section-info-left .flecha-md{
+		display: none;
+	}
 	#section-full-cover .section-content .section-info-right{
+		margin: 1rem 0 1rem 1rem;
+		max-width: 90%;
 		font-size: 1rem;
-	}
-}
-@media(max-width: 370px){
-	#section-full-cover .section-header .section-header-info{
-		margin-top: 80px;
-		margin-left: 20px;
-		margin-bottom: 50px;
-	}
-	#section-full-cover .section-header .section-header-info h1{
-		font-size: 2.5rem;
-		line-height: 2rem;
-	}
-	#section-full-cover .section-content .section-info-left{
-		font-size: 1.4rem;
-		margin-top: 10px;
-		margin-left: 20px;
-	}
-	#section-full-cover .section-content .section-info-right{
-		margin: 2rem 0 1rem 1rem;
-		font-size: 1.4rem;
 	}
 }
 
@@ -544,67 +423,12 @@ section{
 	margin-top: 95px;
 	margin-left: 15px;
 }
-
 @media(max-width: 700px){
 	#section-tiempo{
 		display: flex;
 		flex-direction: column;
-	}
-	#section-tiempo{
 		padding-top: 20px
 	}
-	#section-tiempo .section-info-left{
-		margin-left: 120px;
-		margin-top: 0;
-		margin-bottom: 20px;
-		max-width: 55%;
-	}
-	#section-tiempo .section-info-left p{
-		text-align: left;
-		font-size: 3.6rem;
-	}
-	#section-tiempo .section-info-middle img{
-		width: 20rem;
-		margin-left:110px;
-	}
-	#section-tiempo .section-info-right{
-		text-align: center;
-		margin-top: -20px;
-	}
-	#section-tiempo .section-info-right p{
-		font-size: 6.3rem;
-		margin-top: -20px
-	}
-}
-
-@media(max-width: 600px){
-	#section-tiempo{
-		padding-top: 40px
-	}
-	#section-tiempo .section-info-left{
-		margin-left: 100px;
-		margin-top: 0;
-		margin-bottom: 20px;
-		max-width: 55%;
-	}
-	#section-tiempo .section-info-left p{
-		text-align: left;
-		font-size: 3rem;
-	}
-	#section-tiempo .section-info-middle img{
-		width: 17rem;
-		margin-left:100px;
-	}
-	#section-tiempo .section-info-right{
-		text-align: center;
-		margin-top: -20px;
-	}
-	#section-tiempo .section-info-right p{
-		font-size: 6.3rem;
-		margin-top: -20px
-	}
-}
-@media(max-width: 500px){
 	#section-tiempo .section-info-left{
 		margin-left: 55px;
 		margin-top: 0;
@@ -628,29 +452,7 @@ section{
 		margin-top: -20px
 	}
 }
-@media(max-width: 370px){
-	#section-tiempo .section-info-left{
-		margin-left: 45px;
-		margin-top: 0;
-		margin-bottom: 20px;
-		max-width: 50%;
-	}
-	#section-tiempo .section-info-left p{
-		text-align: left;
-		
-	}
-	#section-tiempo .section-info-middle img{
-		width: 15rem;
-		margin-left:35px;
-	}
-	#section-tiempo .section-info-right{
-		text-align: center;
-		margin-top: -20px;
-	}
-	#section-tiempo .section-info-right p{
-		font-size: 5.5rem;
-	}
-}
+
 
 
 
@@ -679,12 +481,6 @@ section{
 	font-family: "AGENCYR";
 }
 @media(max-width: 700px){
-
-}
-@media(max-width: 600px){
-
-}
-@media(max-width: 500px){
 	#section-cuidalo .section-header{
 		background: url(../img/paint_4-alt.jpg);
 		background-size: 100%;
@@ -703,9 +499,6 @@ section{
 		font-size: 1rem;
 		font-family: "AGENCYR";
 	}
-}
-@media(max-width: 370px){
-
 }
 
 
@@ -743,12 +536,6 @@ section{
 	width: 60px;
 }
 @media(max-width: 700px){
-
-}
-@media(max-width: 600px){
-
-}
-@media(max-width: 500px){
 	#section-kit .section-header{
 		background: url(../img/paint_5-alt.jpg);
 		background-size: 100%;
@@ -766,10 +553,6 @@ section{
 		font-size: 1.2rem;
 	}
 }
-@media(max-width: 370px){
-
-}
-
 
 
 
@@ -796,7 +579,6 @@ section{
 .progressive-size{
 	display: none;
 }
-
 @media(max-width: 700px){
 	.full-size{
 		display: none;
@@ -804,11 +586,6 @@ section{
 	.progressive-size{
 		display: block;
 	}
-}
-@media(max-width: 600px){
-
-}
-@media(max-width: 500px){
 	#section-partners p{
 		font-size: 1.3rem;
 	}
@@ -834,9 +611,6 @@ section{
 		margin-right: -35px !important;
 	}
 }
-@media(max-width: 370px){
-
-}
 
 .splide__track ul li embed{
 	width: 100px;
@@ -845,7 +619,6 @@ section{
 	width: 80%;
 	margin-left: 100px;
 }
-
 .splide__arrow.splide__arrow--prev{
 	margin-left: 70px;
 	background-image: url(../img/carusel-flecha-izquierda.svg);
@@ -856,7 +629,6 @@ section{
 	background-repeat: no-repeat;
 	background-size: 40px;
 }
-
 .splide__arrow.splide__arrow--next{
 	margin-right: 0px;
 	background-image: url(../img/carusel-flecha-derecha.svg);
@@ -867,7 +639,6 @@ section{
 	background-repeat: no-repeat;
 	background-size: 40px;
 }
-
 .splide__pagination{
 	margin-top: 30px;
 	top: 100px;
@@ -906,35 +677,26 @@ section{
 	background-color: #c5c5c5;
 	padding-top: 2rem;
 }
-
 #footer .footer-container .footer-right .footer-info{
 	margin-top: 180px;
 	margin-left: 40px;
 	font-size: 0.8rem;
 	font-family: "JosefinSans-Thin";
 }
-
 #footer .footer-container .footer-right .footer-info .sucursal p{
 	line-height: 1rem;
 }
-
 #footer .footer-container .footer-right .footer-info .sucursal .sucursal-titulo{
 	margin: 20px 0;
 }
-
 #footer .footer-container .footer-right .footer-info .sucursal .sucursal-titulo p{
 	font-family: "JosefinSans-Regular";
 	text-transform: uppercase;
 }
-
 #footer .footer-container .footer-right .footer-info .redes-sociales{
 	margin: 20px 0 30px 0;
 }
 @media(max-width: 700px){
-}
-@media(max-width: 600px){
-}
-@media(max-width: 500px){
 	#footer .titulo{
 		margin:0;
 		margin-left: 30px;
@@ -952,6 +714,4 @@ section{
 	#footer .footer-container .footer-right .footer-info{
 		margin-top: 150px;
 	}
-}
-@media(max-width: 370px){
 }
