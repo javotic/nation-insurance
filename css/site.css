@@ -10,27 +10,27 @@
 
 @font-face {
     font-family: "JosefinSans-Light";
-    src: url("../fonts/JosefinSans-Light.TTF");
+    src: url("../fonts/JosefinSans-Light.ttf");
 }
 
 @font-face {
     font-family: "JosefinSans-ExtraLight";
-    src: url("../fonts/JosefinSans-ExtraLight.TTF");
+    src: url("../fonts/JosefinSans-ExtraLight.ttf");
 }
 
 @font-face {
     font-family: "JosefinSans-Regular";
-    src: url("../fonts/JosefinSans-Regular.TTF");
+    src: url("../fonts/JosefinSans-Regular.ttf");
 }
 
 @font-face {
     font-family: "JosefinSans-Thin";
-    src: url("../fonts/JosefinSans-Thin.TTF");
+    src: url("../fonts/JosefinSans-Thin.ttf");
 }
 
 @font-face {
     font-family: "JosefinSans-Bold";
-    src: url("../fonts/JosefinSans-Bold.TTF");
+    src: url("../fonts/JosefinSans-Bold.ttf");
 }
 
 */
@@ -649,7 +649,7 @@ section {
     #section-tiempo {
         display: flex;
         flex-direction: column;
-        padding: 250px 0;
+        padding: 240px 0;
     }
     #section-tiempo .section-info-left {
         margin-left: 0;
@@ -784,7 +784,7 @@ section {
         background: url(../img/paint_5-alt.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        min-height: 1200px;
+        min-height: 1200px !important;
     }
     #section-kit .section-header .section-header-info {
         margin-top: 20px;
