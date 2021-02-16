@@ -316,7 +316,7 @@ img.escudo {
 @media(max-width: 700px) {
     header {
         height: 90px;
-        background-color: #446138;
+        background-color: #316132;
         position: fixed;
         top: 0;
         left: 0;
@@ -434,6 +434,10 @@ section {
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center top;
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #section-couple .section-header .section-header-info {
         margin-top: 30px;
@@ -583,6 +587,10 @@ section {
         background-position: center;
         background-repeat: no-repeat;
         min-height: 650px !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #section-full-cover .section-header .section-header-info {
         margin-top: 600px;
@@ -620,6 +628,10 @@ section {
     padding-top: 170px;
     padding-bottom: 100px;
     margin-bottom: 0;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #section-tiempo .section-info-left {
@@ -718,6 +730,10 @@ section {
         background: url(../img/paint_4-alt.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #section-cuidalo .section-header .section-header-info {
         padding-top: 120px;
@@ -785,6 +801,10 @@ section {
         background-size: 100%;
         background-repeat: no-repeat;
         min-height: 1200px !important;
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #section-kit .section-header .section-header-info {
         margin-top: 20px;
