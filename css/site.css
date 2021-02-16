@@ -82,7 +82,7 @@ img {
     color: #fff;
     padding: 0.2rem 1rem;
     margin-top: 2rem;
-    font-family: 'JosefinSans-ExtraLight';
+    font-family: 'JosefinSans-Regular';
     font-size: .85rem;
     padding-left: 3rem;
     padding-top: 12px;
@@ -123,7 +123,7 @@ img {
 }
 
 .jslight {
-    font-family: "JosefinSans-Light";
+    font-family: "JosefinSans-Regular";
 }
 
 .jsbold {
@@ -131,7 +131,7 @@ img {
 }
 
 .jsthin {
-    font-family: "JosefinSans-Thin";
+    font-family: "JosefinSans-Regular";
 }
 
 img.escudo {
@@ -422,9 +422,6 @@ section {
 }
 
 @media(max-width: 700px) {
-    #section-couple {
-        margin-bottom: -450px;
-    }
     #section-couple .section-header img {
         visibility: hidden;
         display: block;
@@ -498,7 +495,7 @@ section {
 }
 
 #section-liability .section-content .section-info-right {
-    font-family: "JosefinSans-Light";
+    font-family: "JosefinSans-Regular";
     font-size: 1.6rem;
     margin-top: 6rem;
     max-width: 350px;
@@ -574,7 +571,7 @@ section {
 }
 
 #section-full-cover .section-content .section-info-right {
-    font-family: "JosefinSans-Light";
+    font-family: "JosefinSans-Regular";
     font-size: 1.6rem;
     max-width: 350px;
     padding: 80px 0;
@@ -968,7 +965,7 @@ section {
     margin-top: 180px;
     margin-left: 40px;
     font-size: 0.8rem;
-    font-family: "JosefinSans-Thin";
+    font-family: "JosefinSans-Regular";
 }
 
 #footer .footer-container .footer-right .footer-info .sucursal p {
